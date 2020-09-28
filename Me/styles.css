@@ -5,10 +5,7 @@ html{
 }
 
 .firstPage{
-    height: 100vh;
-}
-
-.container{
+    height: 80vh;
     margin:170px 0 0 200px;
     width: 50%;
 }
@@ -44,6 +41,7 @@ html{
     vertical-align: middle;
     text-align: right;
     margin:0 150px 0 0;
+    display: none;
 }
 .darkMode img{
     opacity: 0.3;
@@ -104,20 +102,79 @@ input:checked + .slider:before {
 
 /*experience*/
 
-.experience{
-    display: grid;
-    grid-template-columns: 300px 100px 800px 200px;
+.background{
+    display: flex;
+    margin: 0 0 0 28%;
 }
 
-.experience h2{
-    grid-column: 2 / 2;
+.background-content{
+    margin-left: 50px;
+    width: 65%;
+    line-height: 1.5;
+}
+
+
+.category{
+    color: teal;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 120px;
     text-align: right;
 }
 
-.experience p{
-    grid-column: 3 / 3;
+
+
+.skills, .experience{
+      display: flex;
+      margin: 8% 0 0 28%;
 }
 
-.experience ul{
+.skill-set ul{
     list-style: none;
+    margin: 0 0 0 50px;
+    padding: 0 0 0 0;
 }
+
+.skill-set ul li{
+    margin-bottom: 5px;
+}
+
+.skill-set-title{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: black;
+}
+
+.skills .category p{
+    margin: 0 0 0 0;
+}
+
+
+.exp-work{
+    margin: 0 0 0 50px;
+    padding: 0 0 0 0;
+}
+
+.exp-work div{
+    width: 400px;
+    height: 60px;
+}
+
+.exp-time div{
+    width: 300px;
+    height: 60px;
+}
+
+.org{
+    font-weight: bolder;
+    color: black;
+}
+
+.exp-work div p:nth-child(1){
+    margin-bottom: 5px;
+}
+.exp-work div p:nth-child(2){
+    margin-top: 0;
+}
+
+

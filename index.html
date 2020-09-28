@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>William's website</title>
+    <link rel="stylesheet" href="styles.css" href="https://fonts.googleapis.com/css?family=Poppins" >
+    <link rel="stylesheet" href="/Users/apple/Desktop/fontawesome-free-5.14.0-web/css/all.min.css">
+    <!--using-FontAwesome----------->
+    <!-- <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous">
+    </script> -->
+
+  </head>
+  <body>
+  <!---main----->
+    <h1>William's website</h1>
+    <section id="main">
+      <!--Navigation---------->
+      <nav>
+      <!---logo------>
+      <a href="#" class="logo"> LOGO</a>
+      <!-- bar-icon -->
+      <div class="toggle"></div>
+      <!---menu----->
+      <ul class="menu">
+         <li><a href="#" class="active">Home</a></li>
+         <li><a href="#">About me </a></li>
+         <li><a href="#">Services</a></li>
+         <li><a href="#">Portfolio</a></li>
+         <li><a href="#">Contact</a></li>
+      </ul>
+      <!--language----->
+      <a href="#" class="lang">En</a>
+    </nav>
+      <!--- name-------------------->
+    <div class="name">
+      <!--Hello------------>
+      <p>Hello</p>
+      <!--name------------>
+      <h1>I'm <font color="teal"> William Lai</font></h1>
+        <!---details--------->
+      <p class="details">My portfolio</p>
+      <!---cv-btn---->
+        <a href="#" class="cv-btn">Download CV</a>
+    </div>
+
+      <!---social---->
+      <div class="social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+      <!--arrow------->
+      <div class="arrow"></div>
+    </section>
+
+  <!--about-section---------------->
+      <section id="about">
+        <!---text--------->
+        <div class="about-text">
+          <h1>About Us</h1>
+          <h2>Freelancing Front-End Developer</h2>
+          <p>Nice to meet you visitors! My name is William.I come from Hong Kong.
+           I am a student in Computer Science. My skills inlcud HTML, CSS,
+          Javascript. I am open to Website Development job opportunities.</p>
+
+          <!--btn----->
+          <button>More Details</button>
+        </div>
+        <!---about-model-img---->
+        <div class="about-model">
+        <img src="" alt="model">
+        </div>
+    </section>
+
+  <!-- services -->
+    <section id="services">
+      <!--services-heading -->
+      <div class="s-heading">
+        <h1>Services</h1>
+        <p>Here is the some services which we provide you</p>
+      </div>
+
+      <!-- service-box-container -->
+      <div class="s-b-container">
+        <!-- box-1-->
+        <div class="s-box">
+          <!-- service-box-img -->
+          <div class="s-b-img">
+        <!-- type -->
+        <div class="s-type">Front-End</div>
+        <!-- img -->
+        <img src="">
+        </div>
+          <!-- service-box-text -->
+          <div class="s-b-text">
+          <a href="#">I am learing computer science in a part time basis.</a>
+        </div>
+        <!-- box-2 -->
+        <div class="s-box">
+          <!-- service-box-img -->
+          <div class="s-b-img">
+          <!-- type -->
+          <div class="s-type">Back-End</div>
+          <!-- img -->
+          <img src="">
+        </div>
+        <!-- service-box-text -->
+        <div class="s-b-text">
+        <a href="#">I am learing computer science in a part time basis.</a>
+        </div>
+        <!-- box-3 -->
+        <div class="s-box">
+          <!-- service-box-img -->
+          <div class="s-b-img">
+          <!-- type -->
+          <div class="s-type">SEO</div>
+          <!-- img -->
+          <img src="">
+        </div>
+        <!-- service-box-text -->
+        <div class="s-b-text">
+        <a href="#">I am learing computer science in a part time basis.</a>
+      </div>
+      </div>
+    </section>
+
+    <section id="contact-btn">
+      <!-- heading -->
+      <h1>If you have any project in your mind ? </h1>
+      <!-- btn -->
+      <a href="#">Contact me</a>
+    </section>
+
+
+<!-- Jquery -->
+<script type="text/javascript" src="jquery.js"></script>
+<!-- For Change Bar Icon to "x" -->
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.toggle').click(function(){
+      $('.nav ul').toggleClass('active-menu')
+    })
+  })
+</script>
+
+
+  </body>
+</html>
