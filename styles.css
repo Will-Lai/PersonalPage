@@ -183,26 +183,46 @@ input:checked + .slider:before {
 
 
 @media screen and (max-device-width: 768px){
+
     .firstPage{
-        margin: 20% 10% 20% 15%;
+        margin: 0 0 0 0;
         width: 90%;
     }
+
+    .container{
+        width: 75vw;
+    }
+
+    .greeting{
+        font-size: 32px;
+    }
+    .introduction{
+        font-size: 22px;
+    }
+    .email{
+        font-size: 14px;
+    }
+
 
     .secondPage{
         width: 100%;
     }
 
     .background, .skills, .experience{
-        margin: 0 0 0 15%;
+        margin: 0 0 0 0;
     }
 
     .background-content{
-        width: 90%;
+        width: 60vw;
     }
 
     /*seperate from different section*/
     .skills, .experience{
         margin-top: 15%;
+    }
+
+    .exp-work{
+        width: 40vw;
     }
 }
 
