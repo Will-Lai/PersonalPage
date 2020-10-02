@@ -1,149 +1,141 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>William's website</title>
-    <link rel="stylesheet" href="styles.css" href="https://fonts.googleapis.com/css?family=Poppins" >
-    <link rel="stylesheet" href="/Users/apple/Desktop/fontawesome-free-5.14.0-web/css/all.min.css">
-    <!--using-FontAwesome----------->
-    <!-- <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous">
-    </script> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  </head>
-  <body>
-  <!---main----->
-    <h1>William's website</h1>
-    <section id="main">
-      <!--Navigation---------->
-      <nav>
-      <!---logo------>
-      <a href="#" class="logo"> LOGO</a>
-      <!-- bar-icon -->
-      <div class="toggle"></div>
-      <!---menu----->
-      <ul class="menu">
-         <li><a href="#" class="active">Home</a></li>
-         <li><a href="#">About me </a></li>
-         <li><a href="#">Services</a></li>
-         <li><a href="#">Portfolio</a></li>
-         <li><a href="#">Contact</a></li>
-      </ul>
-      <!--language----->
-      <a href="#" class="lang">En</a>
-    </nav>
-      <!--- name-------------------->
-    <div class="name">
-      <!--Hello------------>
-      <p>Hello</p>
-      <!--name------------>
-      <h1>I'm <font color="teal"> William Lai</font></h1>
-        <!---details--------->
-      <p class="details">My portfolio</p>
-      <!---cv-btn---->
-        <a href="#" class="cv-btn">Download CV</a>
+    <title>It's me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--    first page-->
+    <div class="firstPage">
+    <!--    working on it-->
+    <div class="darkMode">
+        <img src="photo/light_mode.png" alt="sun icon">
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+        <img src="photo/moon_dark_mode.png" alt="moon icon">
     </div>
+    <div class="container">
+        <div class="greeting">
+            <p>Hello!&#128075;</p>
+        </div>
+        <div class="introduction">
+            <p>I'm <span class="name">William Lai</span>, a CS student who is studying to be a front-end software engineer. I am currently looking for a full-time job or internship.</p>
+        </div>
 
-      <!---social---->
-      <div class="social">
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
+        <div class="email">
+            <p>Keep in touch &#128073; <a href="mailto:waihtgu@gmail.com" >waihtgu@gmail.com</a></p>
+        </div>
     </div>
-      <!--arrow------->
-      <div class="arrow"></div>
-    </section>
+</div>
 
-  <!--about-section---------------->
-      <section id="about">
-        <!---text--------->
-        <div class="about-text">
-          <h1>About Us</h1>
-          <h2>Freelancing Front-End Developer</h2>
-          <p>Nice to meet you visitors! My name is William.I come from Hong Kong.
-           I am a student in Computer Science. My skills inlcud HTML, CSS,
-          Javascript. I am open to Website Development job opportunities.</p>
-
-          <!--btn----->
-          <button>More Details</button>
+<!--second page-->
+    <div class="secondPage">
+<!--        background-->
+        <div class="background">
+            <div class="category">
+                <p class="cat-title">Background</p>
+            </div>
+            <div class="background-content">
+                <p>I'm William Lai, a CS student who is studying to be a front-end software engineer. I am currently looking for a full-time job or internship. I am studying computer science at University of London. After i got my bachelor degree in Economics at Lingnan University.
+                </p>
+            </div>
         </div>
-        <!---about-model-img---->
-        <div class="about-model">
-        <img src="" alt="model">
+<!--        Skills-->
+        <div class="skills">
+            <div class="category">
+                <p class="cat-title">Skills</p>
+            </div>
+<!--            languages-->
+            <div class="skill-set">
+                <ul>
+                    <li class="skill-set-title">Language</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+<!--            Tool-->
+            <div class="skill-set">
+                <ul>
+                    <li class="skill-set-title">Tool</li>
+                    <li>Git & Github</li>
+                    <li>Chrome DevTols</li>
+                </ul>
+            </div>
+<!--            Design-->
+            <div class="skill-set">
+                <ul>
+                    <li class="skill-set-title">Design</li>
+                    <li>InVision</li>
+                </ul>
+            </div>
         </div>
-    </section>
 
-  <!-- services -->
-    <section id="services">
-      <!--services-heading -->
-      <div class="s-heading">
-        <h1>Services</h1>
-        <p>Here is the some services which we provide you</p>
-      </div>
 
-      <!-- service-box-container -->
-      <div class="s-b-container">
-        <!-- box-1-->
-        <div class="s-box">
-          <!-- service-box-img -->
-          <div class="s-b-img">
-        <!-- type -->
-        <div class="s-type">Front-End</div>
-        <!-- img -->
-        <img src="">
+
+
+
+
+<!--        experience & education-->
+        <div class="experience">
+            <div class="category">
+                <p class="cat-title">Experience</p>
+            </div>
+            <div class="exp-work">
+                <div>
+                    <p class="org">University of London</p>
+                    <p>Bachelor of Computer Science</p>
+                </div>
+                <div>
+                    <p class="org">LARUS Cloud Service limited</p>
+                    <p>Business development executive</p>
+                </div>
+                <div>
+                    <p class="org">Fuqi Hostel</p>
+                    <p>Temporary assistant</p>
+                </div>
+                <div>
+                    <p class="org">Lingnan University</p>
+                    <p>Bachelor's degree, Economics</p>
+                </div>
+            </div>
+            <div class="exp-time">
+                <div>
+                    <p>April 2020 - Ongoing</p>
+                </div>
+                <div>
+                    <p>March - June 2020</p>
+                </div>
+                <div>
+                    <p>Nov - Dec 2019</p>
+                </div>
+                <div>
+                    <p>Sep 2015 - Nov 2019</p>
+                </div>
+            </div>
         </div>
-          <!-- service-box-text -->
-          <div class="s-b-text">
-          <a href="#">I am learing computer science in a part time basis.</a>
-        </div>
-        <!-- box-2 -->
-        <div class="s-box">
-          <!-- service-box-img -->
-          <div class="s-b-img">
-          <!-- type -->
-          <div class="s-type">Back-End</div>
-          <!-- img -->
-          <img src="">
-        </div>
-        <!-- service-box-text -->
-        <div class="s-b-text">
-        <a href="#">I am learing computer science in a part time basis.</a>
-        </div>
-        <!-- box-3 -->
-        <div class="s-box">
-          <!-- service-box-img -->
-          <div class="s-b-img">
-          <!-- type -->
-          <div class="s-type">SEO</div>
-          <!-- img -->
-          <img src="">
-        </div>
-        <!-- service-box-text -->
-        <div class="s-b-text">
-        <a href="#">I am learing computer science in a part time basis.</a>
-      </div>
-      </div>
-    </section>
 
-    <section id="contact-btn">
-      <!-- heading -->
-      <h1>If you have any project in your mind ? </h1>
-      <!-- btn -->
-      <a href="#">Contact me</a>
-    </section>
+<!--&lt;!&ndash;        project&ndash;&gt;-->
+<!--        <div class="project">-->
+<!--            <div class="category">-->
+<!--                <p>Projects</p>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--    </div>-->
 
 
-<!-- Jquery -->
-<script type="text/javascript" src="jquery.js"></script>
-<!-- For Change Bar Icon to "x" -->
-<script type="text/javascript">
-  $(document).ready(function(){
-    $('.toggle').click(function(){
-      $('.nav ul').toggleClass('active-menu')
-    })
-  })
-</script>
 
 
-  </body>
+
+
+
+
+
+</body>
 </html>
