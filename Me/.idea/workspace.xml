@@ -20,17 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3095ae00-8b37-40b8-b8f1-3f4aabcf5d7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/PersonalPage.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
@@ -75,7 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601104303323</updated>
       <workItem from="1601104304358" duration="9854000" />
-      <workItem from="1601215650700" duration="10032000" />
+      <workItem from="1601215650700" duration="10537000" />
+      <workItem from="1601542368115" duration="6295000" />
     </task>
     <servers />
   </component>
@@ -92,5 +82,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

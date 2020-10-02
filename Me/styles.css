@@ -4,9 +4,10 @@ html{
     font-family: Verdana, "Arial","Times New Roman", Serif, Times;
 }
 
+/*first page*/
 .firstPage{
-    height: 80vh;
-    margin:170px 0 0 200px;
+    height: ;
+    margin:170px 0 25% 200px;
     width: 50%;
 }
 
@@ -114,7 +115,7 @@ input:checked + .slider:before {
 }
 
 
-.category{
+.cat-title{
     color: teal;
     font-weight: bold;
     text-transform: uppercase;
@@ -124,7 +125,7 @@ input:checked + .slider:before {
 
 
 
-.skills, .experience{
+.skills, .experience, .project{
       display: flex;
       margin: 8% 0 0 28%;
 }
@@ -178,3 +179,86 @@ input:checked + .slider:before {
 }
 
 
+
+
+
+@media screen and (max-device-width: 768px){
+    .firstPage{
+        margin: 20% 10% 20% 15%;
+        width: 90%;
+    }
+
+    .secondPage{
+        width: 100%;
+    }
+
+    .background, .skills, .experience{
+        margin: 0 0 0 15%;
+    }
+
+    .background-content{
+        width: 90%;
+    }
+
+    /*seperate from different section*/
+    .skills, .experience{
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-device-width: 375px){
+
+    html{
+        width: 100%;
+    }
+    .firstPage{
+        margin: 20% 10% 20% 5%;
+        width: 100%;
+    }
+    .container{
+        width: 350px;
+        font-size: 14px;
+    }
+
+    .secondPage{
+        width: 100%;
+    }
+
+    .background, .skills, .experience{
+        margin: 0 0 0 5%;
+    }
+
+    .background-content{
+        width: 350px;
+    }
+
+    .background-content p{
+        width: 250px;
+    }
+
+    /*seperate from different section*/
+    .skills, .experience{
+        margin-top: 15%;
+    }
+
+    .exp-work{
+        width: 280px;
+    }
+}
+
+
+
+
+
+/*@media screen and (max-device-width: 500px) {*/
+/*    .firstPage{*/
+/*        width: 100%;*/
+/*        height: 100%;*/
+/*        margin: 0 0 0 0;*/
+/*        padding: 20% 20% 20% 20%;*/
+/*    }*/
+
+/*    .greeting, .introduction, .email{*/
+/*        padding-right: 15%;*/
+/*    }*/
+/*}*/
