@@ -4,6 +4,10 @@ html{
     font-family: Verdana, "Arial","Times New Roman", Serif, Times;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 /*first page*/
 .firstPage{
     height: ;
