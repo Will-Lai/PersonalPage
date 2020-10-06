@@ -207,7 +207,7 @@ input:checked + .slider:before {
     }
 
     .secondPage{
-        margin: 0 0 0 10%;
+        margin: 20% 0 0 10%;
         width: 100%;
     }
 
@@ -237,27 +237,51 @@ input:checked + .slider:before {
     }
     .firstPage{
         margin: 20% 10% 20% 5%;
-        width: 100%;
+        width: 100vw;
     }
+
+    .introduction{
+        font-size: 15px;
+    }
+
+    .introduction p{
+        line-height: 150%;
+    }
+
     .container{
-        width: 350px;
-        font-size: 14px;
+        width: 90vw;
+        font-size: 12px;
     }
 
     .secondPage{
-        width: 100%;
+        font-size: 10px;
+        width: 100vw;
+        margin: 30% 0 0 0;
+    }
+
+    /*.background-content{*/
+    /*    margin-left: 35px;*/
+    /*}*/
+
+    .cat-title{
+        width: 65px;
+    }
+    .category{
+        width: 50px;
     }
 
     .background, .skills, .experience{
-        margin: 0 0 0 5%;
+        margin: 0 0 0 0;
     }
 
+
+
     .background-content{
-        width: 350px;
+        width: 70vw;
     }
 
     .background-content p{
-        width: 250px;
+        width: 70vw;
     }
 
     /*seperate from different section*/
@@ -265,9 +289,15 @@ input:checked + .slider:before {
         margin-top: 15%;
     }
 
-    .exp-work{
-        width: 280px;
+    .exp-work, .background-content, .skill-set ul{
+        margin-left: 32px;
     }
+
+    .exp-work{
+        width: 45vw;
+    }
+
+    .exp-work
 }
 
 
