@@ -23,6 +23,12 @@ html,body{
     font-size: 36px;
     margin: 70px 0 0 0;
 }
+
+.greeting, .introduction, .email{
+    width: 50vw;
+}
+
+
 .name{
     font-weight: bold;
 }
@@ -123,7 +129,7 @@ input:checked + .slider:before {
     color: teal;
     font-weight: bold;
     text-transform: uppercase;
-    width: 120px;
+    width: 130px;
     text-align: right;
 }
 
@@ -190,7 +196,7 @@ input:checked + .slider:before {
 
 
 /*Ipad*/
-@media screen and (max-device-width: 768px){
+@media screen and (max-device-width: 834px){
     .firstPage{
         margin: 0 0 0 10%;
         width: 90%;
@@ -244,14 +250,19 @@ input:checked + .slider:before {
         width: 414px;
     }
 
+    .greeting, .introduction, .email{
+        width: 80vw;
+    }
+
     .introduction{
-        font-size: 32px;
+        font-size: 18px;
     }
 
     .introduction p{
-        width: 80%;
+        width: 90%;
         line-height: 150%;
     }
+
 
     .container{
         width: 90vw;
@@ -269,7 +280,7 @@ input:checked + .slider:before {
     /*}*/
 
     .cat-title{
-        width: 65px;
+        width: 80px;
     }
     .category{
         width: 50px;
@@ -295,7 +306,7 @@ input:checked + .slider:before {
     }
 
     .exp-work, .background-content, .skill-set ul{
-        margin-left: 32px;
+        margin-left: 50px;
     }
 
     .exp-work{
