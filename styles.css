@@ -192,6 +192,36 @@ input:checked + .slider:before {
 }
 
 
+/*Ipad pro / Ipad air*/
+@media screen and (max-device-width: 1024px) {
+
+    .firstPage{
+        margin: 170px 0 25% 13%;
+    }
+
+    .introduction{
+        width: 70vw;
+    }
+
+    .introduction p{
+        width: 70vw;
+    }
+
+    /*second page margin*/
+    .background, .skills, .experience{
+        margin: 0 0 0 18%;
+    }
+
+    .skills, .experience{
+        margin-top: 10%;
+    }
+
+
+    /*working and education experience*/
+    .exp-work{
+        width: 350px;
+    }
+}
 
 
 
@@ -209,8 +239,15 @@ input:checked + .slider:before {
     .greeting{
         font-size: 32px;
     }
+
     .introduction{
         font-size: 22px;
+        width: 65vw;
+    }
+
+    /*self-introdiction size*/
+    .introduction p{
+        width: 67vw;
     }
     .email{
         font-size: 14px;
