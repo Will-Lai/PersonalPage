@@ -192,6 +192,24 @@ input:checked + .slider:before {
 }
 
 
+/*project*/
+.project-list{
+    margin-left: 50px;
+}
+.project-list a{
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 3px solid teal;
+    padding-bottom: 1px;
+}
+
+.project a:hover{
+    font-style:italic;
+}
+
+
+
+
 /*Ipad pro / Ipad air*/
 @media screen and (max-device-width: 1024px) {
 
@@ -208,12 +226,12 @@ input:checked + .slider:before {
     }
 
     /*second page margin*/
-    .background, .skills, .experience{
+    .background, .skills, .experience, .project{
         margin: 0 0 0 18%;
     }
 
-    .skills, .experience{
-        margin-top: 10%;
+    .skills, .experience, .project{
+        margin-top: 8%;
     }
 
 
@@ -221,6 +239,12 @@ input:checked + .slider:before {
     .exp-work{
         width: 350px;
     }
+
+    /*project*/
+    /*.project{*/
+    /*    margin: 0 0 0 18%;*/
+    /*}*/
+
 }
 
 
@@ -273,6 +297,11 @@ input:checked + .slider:before {
 
     .exp-work{
         width: 40vw;
+    }
+
+    /*project*/
+    .project{
+        margin: 0 0 0 0;
     }
 }
 
@@ -350,7 +379,12 @@ input:checked + .slider:before {
         width: 45vw;
     }
 
-    .exp-work
+    /*project*/
+    .project{
+        margin: 0 0 0 0;
+    }
+
+
 }
 
 
