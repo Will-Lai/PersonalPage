@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a20254bd-1273-4bee-b00a-7e210f05717a" name="Default Changelist" comment="" />
+    <list default="true" id="a20254bd-1273-4bee-b00a-7e210f05717a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web_bootstrap/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_bootstrap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_bootstrap/web" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +53,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +68,7 @@
       <updated>1600246856268</updated>
       <workItem from="1600246857432" duration="1675000" />
       <workItem from="1601631290687" duration="18726000" />
-      <workItem from="1602081120419" duration="4294000" />
+      <workItem from="1602081120419" duration="5801000" />
     </task>
     <servers />
   </component>
