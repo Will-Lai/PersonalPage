@@ -2,6 +2,7 @@ html{
     background-color: ivory;
     color: dimgray;
     font-family: Verdana, "Arial","Times New Roman", Serif, Times;
+    overflow-x: initial !important;
 }
 
 html,body{
