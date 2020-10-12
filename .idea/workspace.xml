@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a20254bd-1273-4bee-b00a-7e210f05717a" name="Default Changelist" comment="" />
+    <list default="true" id="a20254bd-1273-4bee-b00a-7e210f05717a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web_restaurant/.nojekyll.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +67,7 @@
       <updated>1600246856268</updated>
       <workItem from="1600246857432" duration="1675000" />
       <workItem from="1601631290687" duration="18726000" />
-      <workItem from="1602081120419" duration="8658000" />
+      <workItem from="1602081120419" duration="9483000" />
     </task>
     <servers />
   </component>
@@ -88,5 +91,9 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="417" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1601995434243" />
+    <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1602487316622">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1602487316622" />
   </component>
 </project>
