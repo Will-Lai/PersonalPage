@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a20254bd-1273-4bee-b00a-7e210f05717a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web_bootstrap/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_bootstrap/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_bootstrap/web" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_bootstrap/web" beforeDir="false" afterPath="$PROJECT_DIR$/web_bootstrap/web" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -68,7 +67,7 @@
       <updated>1600246856268</updated>
       <workItem from="1600246857432" duration="1675000" />
       <workItem from="1601631290687" duration="18726000" />
-      <workItem from="1602081120419" duration="5801000" />
+      <workItem from="1602081120419" duration="6550000" />
     </task>
     <servers />
   </component>
